@@ -1,0 +1,134 @@
+*{
+    
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+p{
+    font-family: "Poppins", sans-serif;  
+}
+
+.footerr img{
+    width: 7.5rem;
+    height: 7.5rem;
+}
+
+.map{
+    width: 6.25rem;  
+    height: 6.25rem;  
+}
+
+.imgobelisco{
+    width: 21.875rem;
+    height: 18.75rem;
+    padding: .625rem;
+}
+
+.imghotel{
+    width: 21.875rem;
+    height: 18.75rem;
+    padding: .625rem;
+}
+
+.imgpm{
+    width: 21.875rem;
+    height: 18.75rem;
+    padding: .625rem;
+}
+
+.imgh img{
+    height: 100px;
+    width: 100px;
+}
+
+.galeria{
+    max-width: 100%;
+}
+
+.headerr li a{
+    list-style: none;
+    text-decoration: none;
+    justify-content: end;
+
+}
+
+.imagenHotel{
+    height: 31.25rem;
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    object-fit: contain;
+    background-position: center;
+    background-size: cover;
+    filter: brightness(0.5); 
+    background-image: url(https://plus.unsplash.com/premium_photo-1678297269980-16f4be3a15a6?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+}
+
+
+.serv{
+    display: grid;
+    grid-template-columns: repeat(6,25rem);
+    grid-template-rows: repeat(1,25rem);
+    height: 100%;
+}
+
+.reservaimg img{
+    width: 18.75rem;
+    height: 15.625rem;
+}
+
+.reserva1{
+    width: 18.75rem;
+    height: 12.5rem;
+    margin-bottom: 1.875rem;
+}
+
+.reserva2{
+    width: 18.75rem;
+    height: 12.5rem;
+}
+
+
+
+.mapa{
+    width: 31.25rem;
+    height: 25rem;
+}
+
+@media (max-width: 39.5rem){
+        
+    .foot p{
+        font-size: .5rem;
+    }
+
+    .foot h3{
+        font-size: .875rem;
+    }
+
+}
+
+@media (min-width: 62rem){
+
+    .grid1{
+        display: grid;
+        margin-top: .625rem;
+        object-fit: contain;
+        grid-template-columns: repeat(7,9.375rem);
+        grid-template-rows: repeat(2,10.625rem);
+        justify-content: center;
+        
+    }
+
+    .p1{
+        grid-column: 2/4;
+        
+    }
+    
+    .p2{
+        grid-column: 5/7;
+    }
+
+}
